@@ -54,7 +54,7 @@ print(classification_report(y_test, y_pred))
 print("\n✅ Best Hyperparameters:\n", random_search.best_params_)
 
 # 8. Lưu mô hình
-joblib.dump(random_search.best_estimator_, "model_rf_tuned.pkl")
+joblib.dump(random_search.best_estimator_, "model_rf_tuned(v1).pkl")
 print("\n✅ Model saved to model_rf_tuned.pkl")
 
 # 9. Vẽ biểu đồ feature importance
