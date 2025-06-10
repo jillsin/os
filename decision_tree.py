@@ -18,7 +18,7 @@ feature_cols = [
     "ram_percent",
     "battery_percent",
     "plugged",
-    "idle_time_sec",
+    # "idle_time_sec",
     "hour",
     "cpu_freq_mhz",
     "net_sent_rate",
